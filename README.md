@@ -11,7 +11,7 @@ The experiment was conducted across datasets of varying sizes (small, medium, la
 - Run the algorithms against the generated test cases by running `tester.java`
 
 ## Results
-- **Dynamic Programming** showed minimal increase in execution time as dataset size increased, consistent with its polynomial time complexity \(O(n \cdot sum)\). Memory complexity is also \(O(n \cdot sum)\) due to the table used for tracking possible sums.
+- **Dynamic Programming** showed minimal increase in execution time as dataset size increased, consistent with its polynomial time complexity *O(n\*sum)*. Memory complexity is also *O(n\*sum)* due to the table used for tracking possible sums.
 - **Branch and Bound** exhibited significant time increases for larger datasets, suggesting exponential worst-case time complexity. The efficiency of pruning plays a crucial role in performance, potentially making it faster than DP in best-case scenarios but significantly slower in others.
 
 ## Conclusion
