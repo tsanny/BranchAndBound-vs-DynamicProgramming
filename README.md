@@ -16,6 +16,3 @@ The experiment was conducted across datasets of varying sizes (small, medium, la
 
 ## Conclusion
 DP offers consistent performance across various dataset sizes, making it suitable for problems where polynomial time solutions are feasible. BnB can be faster for smaller datasets but risks exponential time complexity for larger ones, highlighting the need for careful consideration based on dataset characteristics.
-
-## Reference
-For implementation details and experimental setup, visit the GitHub link: [https://github.com/sulthanftr/te2-daa.git](https://github.com/sulthanftr/te2-daa.git)
